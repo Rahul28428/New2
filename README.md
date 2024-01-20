@@ -1,5 +1,3 @@
-# New2
-
 # Quickify
 
 Dynamic web app for seamless product search, price tracking, and notifications from various E-Commerce sites.
@@ -53,11 +51,21 @@ Dynamic web app for seamless product search, price tracking, and notifications f
 ## Installation
 
 ```bash
+# Clone the Repository
 git clone [repository_url]
+
+# Install Dependencies for the Client
 cd client
 npm install
-cd server
+
+# Install Dependencies for the Server
+cd ../server
 npm install
+
+# Run the Server
 nodemon app.js
-cd client
+
+# Run the Client
+cd ../client
 npm start
+
